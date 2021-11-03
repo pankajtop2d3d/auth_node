@@ -1,0 +1,36 @@
+{
+  "name": "bajaj-finserv-app",
+  "version": "1.0.0",
+  "description": "Bajaj Finserv Gampaign Application ",
+  "main": "server.js",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "bootstrap": "^5.1.0",
+    "connect-mongo": "^3.0.0",
+    "convert-excel-to-json": "^1.7.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.16.2",
+    "handlebars": "^4.7.7",
+    "mongoose": "^5.6.10",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Pankaj Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "http://localhost:3000/"
+  },
+  "homepage": "http://localhost:3000/"
+}

@@ -1,0 +1,17 @@
+.error_msg{
+    margin-bottom: 9px;
+}
+input.error {
+    border: 1px solid red!important;
+    width: 100%!important;
+}
+
+label.error{
+    color: #ff0000!important;
+    font-size: 12px!important;
+    line-height: 1;
+}
+
+.success_msg{
+    margin-bottom: 12px;
+}
