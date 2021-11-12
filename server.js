@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
-const Handlebars = require('handlebars');
-const expressLayouts = require('express-ejs-layouts')
+//const Handlebars = require('handlebars');
+const expressLayouts = require('express-ejs-layouts');
 
 var authController =require('./controller/auth.controller');
 var userController =require('./controller/user.controller');
