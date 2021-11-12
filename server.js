@@ -58,6 +58,8 @@ app.use(function (err, req, res, next) {
 });
 
 
+
+//Create server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
   console.log('Server is started on http://localhost:'+PORT);
